@@ -1,0 +1,238 @@
+@media(max-width:1080px){
+  .header-nav{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    background:linear-gradient(rgb(58, 76, 148),rgb(88, 88, 152));
+    z-index:10;
+  }
+  .some-links{
+    display: none;
+  }
+  .navigation .sign-up{
+    display: none !important;
+  }
+  .logosite h1{
+    color:#fff;
+    font-size: 30px;
+  }
+  .menu-icon{
+    display: block;
+  }
+  .introduction-site{
+    height: 100vh;
+    background-size: 400%;
+    background-position: center;
+  }
+  .intro_content-row{
+    display: block;
+  }
+  .intro_content-1{
+    margin:0px !important;
+  }
+  .intro_content-1 h1{
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .intro_content-1 h3{
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .intro_content-2{
+    margin:0px !important;
+  }
+  .intro_content-2-add{
+    padding:20px !important;
+  }
+  .download-src img{
+    width:120px;
+    height: 100%;
+    object-fit: cover;
+  }
+  .intro_content-2-add h1{
+    font-size: 30px;
+  }
+  .intro_content-2-add h2{
+    font-size: 25px;
+  }
+  .download-src i{
+    font-size:35px;
+    line-height: 35px;
+  }
+  .special-offer{
+    padding:30px !important;
+    padding-bottom:20px !important;
+  }
+  .special-offer img{
+    width:80px;
+    height: 80px;
+  }
+  .premium-offers{
+    display: block !important;
+  }
+  .about-offer{
+    width: 100%;
+    padding:5px;
+  }
+  .price-offer{
+    display: none;
+  }
+  .purchasing{
+    display: none !important;
+  }
+  .about-offer::after{
+    content:'';
+    height: 100px;
+    width:0px;
+    border-radius: 2px;
+    border:1px solid rgba(177, 177, 70, 0.685);
+    position: absolute;
+    right:-10px;
+    top:25%;
+  }
+  .exit-icon{
+    position: absolute;
+    right:15px;
+    top:10px;
+    font-size:30px;
+    color: rgba(207, 207, 3, 0.918);
+  }
+  .about-offer h1{
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+  .block-header{
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .intro-to_section{
+    padding-top:20px;
+  }
+  .intro-to_section img{
+    top:-40px;
+  }
+  .site-facilities{
+    display: block;
+  }
+  .site_facilities-part{
+    margin-top:40px !important;
+    margin-bottom: 40px !important;
+  }
+  .some-information_trading{
+    margin:50px 0;
+    display: block;
+    background: url(images/comSvg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    margin-bottom:20px;
+  }
+  .some-information_trading img{
+    display: none;
+  }
+  .main-content_info{
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .get-started{
+    margin-top:110px;
+  }
+  .info_trading-content{
+    color:#000;
+    text-shadow: 1px 1px 1px rgba(163, 162, 162, 0.301);
+    font-weight: 600;
+  }
+  .emptyplace50px{
+    display: none;
+  }
+  .constant-costumers{
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    padding:12px;
+    margin:0 0 30px 0 !important;
+  }
+  .constant-customer{
+    padding:12px;
+    margin:0 10px;
+    box-shadow: 3px 3px 15px 3px rgba(67, 66, 66, 0.384);
+  }
+  .constant-customer img{
+    width:200px;
+  }
+  .comments-big_block{
+    display: block !important;
+    padding-bottom: 10px;
+  }
+  .comments-section{
+    width: 100%;
+  }
+  .comments-svg_section{
+    display: none;
+  }
+  .each-comment_block{
+    max-width:100%;
+  }
+  .new-comment_block{
+    max-width: 100%;
+  }
+  .cookies-sect{
+    display: block;
+  }
+  .warning{
+    font-size: 14px;
+  }
+  .confirm-cookies{
+    padding:10px 20px 40px 20px;
+  }
+  .warning-confirm{
+    position: absolute;
+    right:20px;
+  }
+  .full-footer{
+    display: block;
+  }
+  .footer-logo,.footer-setups,.footer-social_links{
+    width:100%;
+  }
+  .footer-logo .logosite{
+    margin-left:20%;
+  }
+  .footer-setups ul{
+    margin:20px 0;
+  }
+  .footer-setups ul li{
+    width:30%;
+    display: inline-block;
+    line-height: auto;
+    margin:4px;
+  }
+  .footer-setups ul li a{
+    width:max-content;
+  }
+  .website-social_medias{
+    width:100%;
+    text-align: center;
+    margin:10px 0;
+  }
+  .website-social_medias li{
+    display: inline-block;
+    margin:0 auto
+  }
+  .end-webpage{
+    padding:20px 0 10px 0;
+  }
+  .end-webpage p{
+    margin-top:10px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .intro-to_section .less-space{
+    margin-top: 0 !important;
+  }
+  .flexible-menu{
+    display: block;
+  }
+}
